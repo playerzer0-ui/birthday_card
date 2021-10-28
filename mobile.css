@@ -1,0 +1,57 @@
+@media screen and (max-width: 430px){
+    
+    .banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cake{
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .person{
+        display: flex;
+        position: absolute;
+        width: 100px;
+        z-index: 1;
+        margin-top: 2em;
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        margin-top: 9em;
+        font-size: 15px;
+        color: white;
+    }
+
+    .main-thing{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        margin: 5em;
+    }
+
+    .main-thing p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+    
+    .main-thing h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin: 1em;
+        font-size: 150px;
+    }
+
+    
+}
